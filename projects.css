@@ -1,0 +1,180 @@
+.row{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.column{
+  width: 70%;
+  
+ 
+}
+
+ a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+ 
+
+.column1 h1{
+  
+  background-image: url("coding2.jpeg");
+  color: white;
+  padding: 70px;
+  transition-duration: 0.4s;
+   text-align: center;
+  border: solid;
+  border-radius: 20px;
+  border-width: 5px;
+  
+}
+
+.column1 h1:hover{
+  background-image: url("coding1.gif");
+  transform: scale(1.4);
+ 
+}
+
+.column2 h1{
+  
+  background-image: url("communityjpg.jpg");
+  color: white;
+  padding: 70px;
+  transition-duration: 0.4s;
+   text-align: center;
+  border: solid;
+  border-radius: 20px;
+  border-width: 5px;
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+
+.column2 h1:hover{
+  background-image: url("ezgif.com-gif-maker\ \(1\).gif");
+  transform: scale(1.4);
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+
+
+
+nav{
+    display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color:white;
+  font-size: 50px;
+ 
+ }
+.switch{
+  width: 150px;
+  height: 150px;
+}
+
+button{
+  background-color: #70f574; /* Green */
+  border: solid;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+}
+
+.buttonXbox {
+  background-color:transparent; 
+  color: #ffffff; 
+  border: 5px solid white;
+  border-radius: 15px;
+}
+
+  .buttonXbox:hover {
+   background: url("https://media.giphy.com/media/vkpGF49nMUSVk7Wg5k/giphy.gif");
+  background-size: cover;
+  background-position: center;
+   border: 5px solid  #46c365;
+  transform: scale(1.5);
+}
+
+.buttonNin {
+  background-color: transparent; 
+  color: #ffffff; 
+  border: 5px solid white;
+  border-radius: 15px;
+}
+
+  .buttonNin:hover {
+    background: url("https://i.pinimg.com/originals/6d/c8/f1/6dc8f11334c7e1564bde781d84f9dfb7.gif");
+  background-size: cover;
+  background-position: center;
+  transform: scale(1.5);
+    border-color: red;
+  
+}
+
+.buttonHome {
+  background-color:transparent; 
+  color: #ffffff; 
+  border: 5px solid white;
+  border-radius: 15px;
+}
+
+  .buttonHome:hover {
+   background: url("output-onlinegiftools.gif");
+  background-size: cover;
+    color:white;
+  background-position: center;
+   border: 5px solid  #a246c3;
+  transform: scale(1.5);
+}
+
+.buttonPC {
+  background-color:transparent; 
+  color: #ffffff; 
+  border: 5px solid white;
+  border-radius: 15px;
+  
+}
+
+@keyframes PC
+{
+  0%   {background-color: red;}
+  8.3%  {background-color: #f57732;}
+  16.6%  {background-color: orange;}
+  24.9%  {background-color: #FFAE42;}
+  50%  {background-color: yellow;}
+  100% {background-color: green;}
+}
+
+
+  .buttonPC:hover {
+  color: white;
+  transform: scale(1.5);
+    animation-name: PC;
+  animation-duration: 4s;
+  background-size: cover;
+  background-position: center;
+
+}
+
+body{
+   background-image: url("");
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  background-color: lightblue;
+}

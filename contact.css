@@ -1,0 +1,91 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+nav {
+   width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+button{
+     background-color: #4CAF50; /* Green */
+  border: solid;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+}
+
+.buttonXbox {
+  background-color:transparent; 
+  color: #ffffff; 
+  border: 5px solid white;
+  border-radius: 15px;
+}
+
+  .buttonXbox:hover {
+   background: url("https://media.giphy.com/media/vkpGF49nMUSVk7Wg5k/giphy.gif");
+  background-size: cover;
+  background-position: center;
+   border: 5px solid  #46c365;
+  transform: scale(1.5);
+}
+
+.buttonNin {
+  background-color: transparent; 
+  color: #ffffff; 
+  border: 5px solid white;
+  border-radius: 15px;
+}
+
+  .buttonNin:hover {
+    background: url("https://i.pinimg.com/originals/6d/c8/f1/6dc8f11334c7e1564bde781d84f9dfb7.gif");
+  background-size: cover;
+  background-position: center;
+  transform: scale(1.5);
+    border-color: red;
+  
+}
+
+.buttonPS {
+  background-color: transparent; 
+  color: #ffffff; 
+  border: 5px solid white;
+  border-radius: 15px;
+}
+
+  .buttonPS:hover {
+   background: url("https://cdn.vox-cdn.com/uploads/chorus_asset/file/20040523/computations_lede.gif");
+  background-size: cover;
+  background-position: center;
+     border: 5px solid #2465ff;
+  transform: scale(1.5);
+}
+
+.buttonHome {
+  background-color:transparent; 
+  color: #ffffff; 
+  border: 5px solid white;
+  border-radius: 15px;
+}
+
+  .buttonHome:hover {
+   background: url("output-onlinegiftools.gif");
+  background-size: cover;
+    color:white;
+  background-position: center;
+   border: 5px solid  #a246c3;
+  transform: scale(1.5);
+}
+
+  body{
+    background: rgb(255,0,0);
+background: radial-gradient(circle, rgba(255,0,0,1) 0%, rgba(255,141,0,1) 16%, rgba(255,235,0,1) 36%, rgba(0,255,8,1) 46%, rgba(0,255,227,1) 58%, rgba(0,56,255,1) 66%, rgba(137,0,255,1) 75%, rgba(255,0,236,1) 83%, rgba(255,0,0,1) 92%);
+  }

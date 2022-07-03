@@ -1,0 +1,128 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+nav {
+   width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+button{
+     background-color: #4CAF50; /* Green */
+  border: solid;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+}
+
+.buttonXbox {
+  background-color:transparent; 
+  color: #ffffff; 
+  border: 5px solid white;
+  border-radius: 15px;
+}
+
+  .buttonXbox:hover {
+   background: url("https://media.giphy.com/media/vkpGF49nMUSVk7Wg5k/giphy.gif");
+  background-size: cover;
+  background-position: center;
+   border: 5px solid  #46c365;
+  transform: scale(1.5);
+}
+
+.buttonNin {
+  background-color: transparent; 
+  color: #ffffff; 
+  border: 5px solid white;
+  border-radius: 15px;
+}
+
+  .buttonNin:hover {
+    background: url("https://i.pinimg.com/originals/6d/c8/f1/6dc8f11334c7e1564bde781d84f9dfb7.gif");
+  background-size: cover;
+  background-position: center;
+  transform: scale(1.5);
+    border-color: red;
+  
+}
+
+.buttonPS {
+  background-color: transparent; 
+  color: #ffffff; 
+  border: 5px solid white;
+  border-radius: 15px;
+}
+
+  .buttonPS:hover {
+   background: url("https://cdn.vox-cdn.com/uploads/chorus_asset/file/20040523/computations_lede.gif");
+  background-size: cover;
+  background-position: center;
+     border: 5px solid #2465ff;
+  transform: scale(1.5);
+}
+
+.buttonPC {
+  background-color:transparent; 
+  color: #ffffff; 
+  border: 5px solid white;
+  border-radius: 15px;
+  
+}
+
+@keyframes PC
+{
+  0%   {background-color: red;}
+  8.3%  {background-color: #f57732;}
+  16.6%  {background-color: orange;}
+  24.9%  {background-color: #FFAE42;}
+  50%  {background-color: yellow;}
+  100% {background-color: green;}
+}
+
+
+  .buttonPC:hover {
+  color: white;
+  transform: scale(1.5);
+    animation-name: PC;
+  animation-duration: 4s;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.title{
+  color: white;
+  font-size: 50px;
+}
+
+body{
+   background-image: url("output-onlinegiftools.gif");
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+
+}
+
+
+.welcome{
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+}
+.bio{
+  padding-top: 125px;
+  color: white;
+  width: 40%;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+

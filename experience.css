@@ -1,0 +1,207 @@
+.top {
+  text-decoration: none;
+  padding: 10px;
+  font-family: sans-serif;
+  color: #fff;
+  background: #000;
+  border-radius: 100px;
+  place-self: end;
+}
+
+ #myBtn {
+        position: fixed;
+        bottom: 10px;
+        float: right;
+        right: 10%;
+        left: 90%;
+        max-width: 100px;
+        width: 100%;
+        font-size: 12px;
+        border-color: rgba(85, 85, 85, 0.2);
+        background-color: rgb(100,100,100);
+        padding: .5px;
+        border-radius: 4px;
+
+    }
+/*On Hover Color Change*/
+    #myBtn:hover {
+        background-color: #7dbbf1;
+    }
+
+html{
+  scroll-behavior: smooth;
+}
+
+nav{
+    display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color:white;
+  font-size: 50px;
+ font-family: 'Fredoka One', cursive;
+ }
+/* Clear floats after image containers */
+.row1 {
+  
+  display: flex;
+  justify-content: space-between;
+  background-color: #ff8a8a;
+  height: 260px;
+   align-items: center;
+  margin: 10px
+}
+
+.row2 {
+ display: flex;
+  background-color: #8a92ff;
+  height: 260px;
+   justify-content: space-between;
+  align-items: center;
+   margin: 10px
+  
+}
+
+.row1 img{
+  height: 250px;
+  width: 300px;
+  margin-left: 20px;
+   margin-right: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.row2 img{
+    height: 250px;
+  width: 300px;
+   margin-left: 20px;
+   margin-right: 20px;
+   padding-left: 50px;
+  padding-right: 50px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 150px;
+}
+
+.column {
+  flex:45%;
+  padding: 5px;
+  
+}
+
+.column p {
+  color:white;
+  font-size: 20px;
+}
+
+.column img {
+  width: 400px;
+}
+
+
+
+
+
+button{
+  background-color: #70f574; /* Green */
+  border: solid;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+}
+
+.buttonHome {
+  background-color:transparent; 
+  color: #ffffff; 
+  border: 5px solid white;
+  border-radius: 15px;
+}
+
+  .buttonHome:hover {
+   background: url("output-onlinegiftools.gif");
+  background-size: cover;
+    color:white;
+  background-position: center;
+   border: 5px solid  #a246c3;
+  transform: scale(1.5);
+}
+
+.buttonXbox {
+  background-color:transparent; 
+  color: #ffffff; 
+  border: 5px solid white;
+  border-radius: 15px;
+}
+
+  .buttonXbox:hover {
+   background: url("https://media.giphy.com/media/vkpGF49nMUSVk7Wg5k/giphy.gif");
+  background-size: cover;
+  background-position: center;
+   border: 5px solid  #46c365;
+  transform: scale(1.5);
+}
+
+.buttonPS {
+  background-color: transparent; 
+  color: #ffffff; 
+  border: 5px solid white;
+  border-radius: 15px;
+}
+
+  .buttonPS:hover {
+   background: url("https://cdn.vox-cdn.com/uploads/chorus_asset/file/20040523/computations_lede.gif");
+  background-size: cover;
+  background-position: center;
+     border: 5px solid #2465ff;
+  transform: scale(1.5);
+}
+
+.buttonPC {
+  background-color:transparent; 
+  color: #ffffff; 
+  border: 5px solid white;
+  border-radius: 15px;
+  
+}
+
+@keyframes PC
+{
+  0%   {background-color: red;}
+  8.3%  {background-color: #f57732;}
+  16.6%  {background-color: orange;}
+  24.9%  {background-color: #FFAE42;}
+  50%  {background-color: yellow;}
+  100% {background-color: green;}
+}
+
+
+  .buttonPC:hover {
+  color: white;
+  transform: scale(1.5);
+    animation-name: PC;
+  animation-duration: 4s;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.switch{
+  width: 50px;
+  height: 50px;
+}
+
+body{
+ 
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  background-color: #cc80ff;
+}
+
